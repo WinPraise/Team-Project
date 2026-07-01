@@ -9,72 +9,109 @@ img {
 }
 
 .first-section {
-    background: url(./section4/section-pic.jpg);
+    height: 100vh;
+    background: url(../images/Background.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-    min-height: 100vh;
-    max-height: 100%;
 }
 
-.color {
-    background: linear-gradient(rgba(0, 0, 0, 0.651), rgba(108, 10, 10, 0.568), rgba(107, 134, 8, 0.888), rgba(4, 4, 4, 0.911));
-    min-height: 100vh;
-    max-height: 100%;
+.my-nav {
+    position: absolute;
     width: 100%;
+    z-index: 10;
+}
+
+.i1 img {
+    width: 50px;
+    height: auto;
+}
+
+.tt {
+    color: white !important;
+    font-weight: 500;
+}
+
+.i1 {
+    font-family: "Oleo Script", system-ui;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    color: white !important;
+    font-size: 29px;
+}
+
+.btn-success:hover {
+    background-color: #20963c;
 }
 
 .content {
-    min-height: 150px;
+    color: white;
+}
+
+.content span {
+    color: goldenrod;
+}
+
+.i2 img {
     width: 100%;
-    justify-content: center;
+    height: 350px;
 }
 
-.first-section a {
-    color: orangered !important;
-    text-decoration: none;
+.ii {
+    width: auto;
+    max-width: 70px;
+    height: auto;
 }
 
-.first-section h5 {
-    color: orangered;
-}
 
-.box {
-    transition: transform 1.2s ease-in-out;
-    box-shadow: 0px 5px 10px orangered;
-}
+@media screen and (max-width: 756px) {
+    .first-section {
+        height: auto;
+        min-height: 100vh;
+        padding: 20px 0 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 
-.box:hover {
-    transform: translateY(-10px);
-    background-color: orangered !important;
-}
+    .container {
+        padding: 0 15px;
+    }
 
-.box:hover i,
-.box:hover h5,
-.box:hover p {
-    color: white !important;
-}
+    .row.g-4 {
+        margin: 0 !important;
+    }
 
-button {
-    background-color: orangered;
-    color: white;
-    border: none;
-    font-weight: 500;
-    transition: transform 1.5s ease-in-out;
-}
+    .content {
+        text-align: center;
+        padding: 10px 0;
+    }
 
-button:hover {
-    background-color: white;
-    color: orangered;
-    transform: scale(1.15);
-}
+    .d-flex.flex-wrap {
+        justify-content: center;
+    }
 
-.hover h1 {
-    color: white;
-    transition: transform 0.5s ease-in-out;
-}
+    .i {
+        text-align: center;
+        padding: 10px !important;
+    }
 
-.hover:hover h1 {
-    transform: translateY(-10px);
+    .i2 img {
+        height: auto;
+        max-height: 280px;
+        width: 60%;
+        object-fit: contain;
+        margin-top: -60px;
+    }
+
+    .my-nav {
+        padding: 10px 0;
+    }
+
+    .bottom {
+        padding: 20px 0 20px;
+        margin-top: 10px;
+    }
+    
 }
