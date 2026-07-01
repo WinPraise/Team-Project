@@ -1,12 +1,12 @@
-.box{
+.box img{
     height: 400px;
-    border: 1px solid black;
+   object-fit: cover;
 }
 h1{
     text-align: center;
 }
-.col{
-    background-image: url(../images/11893.jpg);
-    height: 100vh;
-    background-repeat: no-repeat;
+.pet {
+    height: 200px;
+    border: 1px solid black;
 }
+
