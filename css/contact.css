@@ -37,7 +37,7 @@
           font-style: italic;
         }
 
-       .pic-box a{
+       .picbox a{
             background-color: rgba(255, 0, 0, 0.764);
             text-decoration: none;
             color: white;
@@ -59,7 +59,7 @@
 
         /* HOVER */
 
-        a:hover{
+        .picbox a:hover{
           background-color:red;
           color: rgba(255, 217, 0, 0.715);
           
