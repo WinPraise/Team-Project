@@ -8,89 +8,145 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="./css/style.css">
 
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="./index.html">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./services.html">Services</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./contact.html">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./about.html">About</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Products
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Phone Accesories</a></li>
-            <li><a class="dropdown-item" href="#">Laptops & Desktops</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Maintenance and Repairs</a></li>
-          </ul>
-        </li>
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
-    </div>
-  </div>
-</nav>
+  <!-- NavBar Section -->
 
-
-<section class="first-section d-flex flex-column align-items-center">
-        <div class="container">
-            <div class="row g-4 m-4 align-items-center">
-
-            <!-- Left Part: Content Text -->
-                <div class="col-md-7 content">
-                    <h3 class="display-6 fw-bold">Shopify is everything <br> you need to <span>sell online</span></h3>
-                    <p class="fs-5">Start your free 14-day trial today!</p>
-                    <div class="d-flex flex-wrap"> 
-                        <input type="email" class="form-control form-control-lg" placeholder="Enter your email address" style="flex: 0 1 300px; min-width: 180px; border-radius: 0;">
-                        <a href="#"><button class="btn btn-success btn-lg ms-1 px-3" style="border-radius: 0;">Get started</button></a>
-                    </div>
-
-                    <p class="fw-bold mt-2">Trusted by over 325,000 store owners</p>
-                </div>
-
-            <!-- Right Part: Image -->
-                <div class="col-md-5 i2 text-center p-4">
-                    <img src="./girl.png" alt="" class="img-fluid">
-
-                </div>
-
-            </div>
-        </div>
-
-    <!-- Bottom Part -->
-        <div class="bottom text-center pt-2">
-            <p class="fw-bold fs-5 mb-2">Start selling for $9/month</p>
-
-        <div class="d-flex gap-4 mt-5 justify-item-center">
-            <img class="ii i3" src="./Picsart_1.png" alt="">
-            <img class="ii i4" src="./Picsart_2.png" alt="">
-            <img class="ii i5" src="./Picsart_3.png" alt="">
-        </div>
+    <section class="Nav-bar">
+        <div class="nav">
+            <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark" style="background: #000000 !important; width: 100%; margin: 0; padding: 0;">
+    <div style="width: 100%; padding: 0 20px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
+        
+        <!-- Logo -->
+        <a class="navbar-brand" href="#" style="padding: 0; margin: 0;">
+            <img src="./images/4408535_2339726.jpg" alt="Logo" height="40" width="40" style="object-fit: contain;">
+        </a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <!-- Collapsible content -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="flex-grow: 1;">
+            <ul class="navbar-nav" style="margin: 0 auto; gap: 2rem;">
+                <li class="nav-item"><a class="nav-link active" href="#">Win Technologies</a></li>
+                <li class="nav-item"><a class="nav-link" href="./services.html">Services</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Products</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Portable Monitors</a></li>
+                        <li><a class="dropdown-item" href="#">Smart Routers</a></li>
+                        <li><a class="dropdown-item" href="#">Laptops</a></li>
+                        <li><a class="dropdown-item" href="#">SmartPhones</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Power Banks</a></li>
+                        <li><a class="dropdown-item" href="#">Inverter Systems</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
+            </ul>
             
+            <!-- Search form -->
+            <form class="d-flex" role="search" style="margin: 0;">
+                <input class="form-control me-2" type="search" placeholder="Search" style="min-width: 200px;">
+                <button class="btn" type="submit" style="background-color: #0d6efd; color: white; border: none;">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
         </div>
     </section>
+
+    <!-- Carousel Section -->
+
+    <section class="Carousel">
+      <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="2000">
+      <img src="./images/2151133175.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Step Into Another Dimension</h5>
+        <p>Immersive VR experiences that blur the line between imagination and reality</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="./images/2149309662.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 style="color: black;">Seamless Ecosystem</h5>
+        <p style="color: black;">Your devices, connedted. Your workflow, uninterrupted. Your world, smarter</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="./images/2151074307.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Sound That Moves With You</h5>
+        <p>Crystal-clear audio. Noise cancellation that actually works. Freedom from wires</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="./images/2149309643.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Power On the GO</h5>
+        <p>From high-performance laptops to portable power banks; we keep you charged and ready</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    </section>
+
+    <!-- Footer Section -->
+
+
+    <section class="footer">
+    <footer style="background: linear-gradient(135deg, rgb(90, 22, 22), rgb(2, 35, 2), rgb(0, 0, 0)); padding: 3rem 0; margin-top: 2rem; color: white;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>About Us</h5>
+                    <p>Tech solutions for the modern world.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white text-decoration-none">Home</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Services</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Products</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Subscribe</h5>
+                    <form>
+                        <input type="email" class="form-control mb-2" placeholder="Your email">
+                        <button class="btn btn-primary w-100" type="button">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="text-center mt-4 pt-3 border-top border-secondary">
+                <p class="mb-0">&copy; 2026 WinTechStore. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</section>
+
     
 </body>
 </html>
