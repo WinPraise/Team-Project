@@ -5,3 +5,8 @@
 h1{
     text-align: center;
 }
+.col{
+    background-image: url(../images/11893.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+}
