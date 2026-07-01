@@ -8,9 +8,14 @@ img {
     width: 100%;
 }
 
+.container {
+    background-color: black;
+}
+
 .first-section {
-    height: 100vh;
-    background: url(../images/Background.jpg);
+    min-height: 100vh;
+    max-height: 100%;
+    background-image: url(../images/section-pic.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
