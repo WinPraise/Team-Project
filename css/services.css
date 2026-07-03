@@ -5,6 +5,7 @@
 }
 
 .boxx{
+<<<<<<< HEAD
     /* border: 1px solid black; */
     height: 400px;
     box-shadow: 5px 10px 10px;
@@ -40,3 +41,17 @@ p{
     text-align: center;
 }
     
+=======
+    border: 1px solid black;
+    height: 200px;
+}
+
+.navbar-nav {
+          flex-grow: 1;
+          gap: 5rem;
+        }
+
+        .navbar .d-flex {
+          margin-left: auto;
+        }
+>>>>>>> 8abc7e83453dbb9eb1b143b268fbd2634d08eac4
