@@ -5,7 +5,6 @@
 }
 
 .boxx{
-<<<<<<< HEAD
     /* border: 1px solid black; */
     height: 400px;
     box-shadow: 5px 10px 10px;
@@ -26,9 +25,16 @@
     
 }
 
-h1{
+.yyy{
+
+    text-align: center !important;
+    color: rgba(53, 176, 71, 0.413);
+    transition: transform 0.7s ease-in-out;
+}
+
+h5{
     text-align: center;
-    color: rgba(176, 53, 53, 0.413);
+    color: rgba(53, 176, 71, 0.413);
     transition: transform 0.7s ease-in-out;
 }
 
@@ -41,10 +47,6 @@ p{
     text-align: center;
 }
     
-=======
-    border: 1px solid black;
-    height: 200px;
-}
 
 .navbar-nav {
           flex-grow: 1;
@@ -54,4 +56,3 @@ p{
         .navbar .d-flex {
           margin-left: auto;
         }
->>>>>>> 8abc7e83453dbb9eb1b143b268fbd2634d08eac4
