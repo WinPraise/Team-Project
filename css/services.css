@@ -1,8 +1,42 @@
 .boxxx{
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    padding-left: 10px !important;
+    padding-right:10px !important;
 }
 
 .boxx{
-    border: 1px solid black;
-    height: 200px;
+    /* border: 1px solid black; */
+    height: 400px;
+    box-shadow: 5px 10px 10px;
+    overflow: hidden;
+    transition: transform 0.6s ease-in-out;
+    border-radius: 15px !important;
+
+
 }
+
+.boxx:hover{
+    transform: scale(1.05);
+}
+.coll{
+    height: 420px !important;
+    object-fit: cover;
+    width: 380px !important;
+    
+}
+
+h1{
+    text-align: center;
+    color: rgba(176, 53, 53, 0.413);
+    transition: transform 0.7s ease-in-out;
+}
+
+h1:hover{
+    transform: scale(1.05);
+
+}
+
+p{
+    text-align: center;
+}
+    
