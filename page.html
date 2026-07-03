@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Oleo+Script:wght@400;700&display=swap"
+    rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/c92b678204.js" crossorigin="anonymous"></script>
+
+
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        .first-box {
+            /* border: 1px solid black; */
+            /* height: 400px; */
+        }
+
+        .container1 {
+            padding: 70px 70px;
+            background-color: rgba(250, 235, 215, 0.269);
+            width: 100%;
+        }
+
+        .box {
+            /* border: 1px solid black; */
+            /* position: absolute; */
+        }
+
+        img {
+            /* height: 300px; */
+            width: 100%;
+            /* padding-bottom: 20px; */
+            /* position: absolute; */
+        }
+
+        .icon {
+            background-color: white;
+            text-align: center;
+            /* padding: 5px 10px; */
+            width: 10px;
+            color: orangered;
+            /* height: 70px; */
+            /* font-size: 20px; */
+        
+        }
+
+        .icon-box {
+            /* padding: 0 20px; */
+            /* width: 100%; */
+            /* border: 1px solid black; */
+            position: relative;
+            width: 80%;
+            bottom: 40px;
+            left: 30px;
+        }
+
+        h5 {
+            font-family: "EB Garamond", serif;
+        }
+
+        h1 {
+            font-family: "EB Garamond", serif;
+        }
+
+        .link-box a {
+            padding: 5px 10px;
+            background-color: orangered;
+            border-radius: 2px;
+            /* border: 1px solid black; */
+            text-decoration: none;
+            color: white;
+            font-size: 15px;
+        }
+
+        span {
+            color: orangered;
+            font-size: 30px;
+            padding-right: 10px;
+        }
+
+        .text {
+            padding:35px 0;
+        }
+
+        .low {
+            padding-top: 10px;
+        }
+
+         @media screen and (max-width: 756px) {
+            .container1 {
+                width: 100%;
+            }
+
+            .icon-box {
+                text-align: center;
+                padding-left: 40px;
+                /* height: 50px; */
+                
+            }
+         }
+    </style>
+
+
+</head>
+<body>
+    <section>
+        <div class="row gap-3 container1">
+            <div class="col-md first-box">
+                <h1>Our Team</h1>
+
+                <p class="low">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur assumenda, cum a laborum, rem accusantium eveniet beatae eum consectetur, itaque fugit aliquid quibusdam placeat! Ratione culpa nemo magni consequatur libero?</p>
+
+
+                <h5 class="text"><span>20</span> Beauty Therapist</h5>
+
+
+                <div class="link-box">
+                    <a href="">View All</a>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="row gap-3 col-md-7 first-box">
+                <div class="col-md box">
+                    <div>
+                        <img src="./1320.jpg" alt="">
+
+                        <div class="row gap-2 icon-box"><div class="col-md icon"><i class="fa-brands fa-facebook-f"></i></div>
+
+                        <div class="col-md icon"><i class="fa-brands fa-instagram"></i></div>
+
+                        <div class="col-md icon"><i class="fa-brands fa-twitter"></i></div>
+                        </div>
+                        
+                    </div>
+
+                    <h5>Kathryn Murphy</h5>
+
+                    <p>Beauty Therapist</p>
+                </div>
+
+                <div class="col-md box">
+                    <div>
+                        <img src="./young-person-intership.jpg" alt="">
+
+                         <div class="row gap-3 icon-box"><div class="col-md icon"><i class="fa-brands fa-facebook-f"></i></div>
+
+                        <div class="col-md icon"><i class="fa-brands fa-instagram"></i></div>
+
+                        <div class="col-md icon"><i class="fa-brands fa-twitter"></i></div>
+                        </div>
+                    </div>
+
+                    <h5>Leslie Alexander</h5>
+
+                    <p>Beauty Therapist</p>
+                </div>
+
+                <div class="col-md box">
+                    <div>
+                        <img src="./portrait-smiling-asian-businesswoman-coach.jpg" alt="">
+
+                         <div class="row gap-3 icon-box"><div class="col-md icon"><i class="fa-brands fa-facebook-f"></i></div>
+
+                        <div class="col-md icon"><i class="fa-brands fa-instagram"></i></div>
+
+                        <div class="col-md icon"><i class="fa-brands fa-twitter"></i></div>
+                        </div>
+                    </div>
+
+                    <h5>Eleanor Pena</h5>
+
+                    <p>Beauty Therapist</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
