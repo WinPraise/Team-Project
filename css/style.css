@@ -5,7 +5,8 @@
         }
 
         img {
-            width: 100%;
+            min-width: calc();
+            max-width: 100%;
         }
 
         /* .nav-bar {position: absolute;} */
