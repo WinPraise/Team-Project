@@ -62,3 +62,12 @@
  }
   
 
+.navbar-nav {
+          flex-grow: 1;
+          gap: 5rem;
+        }
+
+        .navbar .d-flex {
+          margin-left: auto;
+        }
+
