@@ -35,6 +35,7 @@
     height: 200px;  
      box-shadow: 5px 10px 10px;
      transition: transform 0.8S ease-in-out;
+        margin-top: 50px !important;
  }
  .box:hover
  {
@@ -58,6 +59,7 @@
  .tred{
    height: 300px;
    border: 1px solid black;
+   margin-top: 50px !important;
 
  }
   
